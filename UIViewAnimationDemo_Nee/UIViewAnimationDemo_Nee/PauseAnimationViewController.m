@@ -28,7 +28,7 @@
     _diskImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Disk"]];
     _diskImageView.frame = CGRectMake([UIScreen mainScreen].bounds.size.width / 2 - 119, 100, 238, 238);
     _coverImageView = [[UIImageView alloc] init];
-    _coverImageView.image = [UIImage imageNamed:@"me2"];
+    _coverImageView.image = [UIImage imageNamed:@"Cover"];
     _coverImageView.bounds = CGRectMake(0, 0, 150, 150);
     _coverImageView.center = _diskImageView.center;
     [self.view addSubview:_coverImageView];
