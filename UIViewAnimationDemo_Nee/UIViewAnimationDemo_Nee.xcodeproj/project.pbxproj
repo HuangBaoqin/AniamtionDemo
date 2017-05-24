@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		733D1C2E1ED26D9A00ED4440 /* ExplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D1C2D1ED26D9A00ED4440 /* ExplicitAnimationViewController.m */; };
+		733D1C311ED2998C00ED4440 /* CABasiceAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D1C301ED2998C00ED4440 /* CABasiceAnimationViewController.m */; };
+		7369A0AE1ED3C4B8003AE76A /* MediaTimingSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7369A0AD1ED3C4B8003AE76A /* MediaTimingSystemViewController.m */; };
+		7369A0B11ED4133B003AE76A /* PauseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7369A0B01ED4133B003AE76A /* PauseAnimationViewController.m */; };
+		7369A0B41ED445AF003AE76A /* CALayer+AnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7369A0B31ED445AF003AE76A /* CALayer+AnimationControl.m */; };
+		738FB6A01ECE9CC500F9B426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 738FB69F1ECE9CC500F9B426 /* main.m */; };
+		738FB6A31ECE9CC500F9B426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 738FB6A21ECE9CC500F9B426 /* AppDelegate.m */; };
+		738FB6AB1ECE9CC500F9B426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738FB6AA1ECE9CC500F9B426 /* Assets.xcassets */; };
+		738FB6AE1ECE9CC500F9B426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738FB6AC1ECE9CC500F9B426 /* LaunchScreen.storyboard */; };
+		738FB6B71ECE9CE400F9B426 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738FB6B61ECE9CE400F9B426 /* FirstViewController.m */; };
+		7390410D1ED567CB00FC2BFF /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */; };
+		73930BB31ECEA5F400381B76 /* utilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB21ECEA5F400381B76 /* utilTool.m */; };
+		73930BB61ECEA65F00381B76 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB51ECEA65F00381B76 /* AnimationViewController.m */; };
+		73930BB91ECEA66F00381B76 /* AnimationBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB81ECEA66F00381B76 /* AnimationBlockViewController.m */; };
+		73930BBC1ECEA68700381B76 /* AnimationKeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BBB1ECEA68700381B76 /* AnimationKeyframeViewController.m */; };
+		739566A51ED1C065006893C4 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566A41ED1C065006893C4 /* ImplicitAnimationViewController.m */; };
+		739566C41ED1CC27006893C4 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566AB1ED1CC27006893C4 /* Chameleon_.m */; };
+		739566C51ED1CC27006893C4 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566AD1ED1CC27006893C4 /* ChameleonConstants.m */; };
+		739566C61ED1CC27006893C4 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566B11ED1CC27006893C4 /* NSArray+Chameleon.m */; };
+		739566C71ED1CC27006893C4 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566B31ED1CC27006893C4 /* UIAppearance+Swift.m */; };
+		739566C81ED1CC27006893C4 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566B51ED1CC27006893C4 /* UIButton+Chameleon.m */; };
+		739566C91ED1CC27006893C4 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566B71ED1CC27006893C4 /* UIColor+Chameleon.m */; };
+		739566CA1ED1CC27006893C4 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566B91ED1CC27006893C4 /* UIColor+ChameleonPrivate.m */; };
+		739566CB1ED1CC27006893C4 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566BB1ED1CC27006893C4 /* UIImage+ChameleonPrivate.m */; };
+		739566CC1ED1CC27006893C4 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566BD1ED1CC27006893C4 /* UILabel+Chameleon.m */; };
+		739566CD1ED1CC27006893C4 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566BF1ED1CC27006893C4 /* UINavigationController+Chameleon.m */; };
+		739566CE1ED1CC27006893C4 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566C11ED1CC27006893C4 /* UIView+ChameleonPrivate.m */; };
+		739566CF1ED1CC27006893C4 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566C31ED1CC27006893C4 /* UIViewController+Chameleon.m */; };
+		739566D21ED1D79C006893C4 /* LayerTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566D11ED1D79C006893C4 /* LayerTreeViewController.m */; };
+		739566D51ED1E500006893C4 /* TransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739566D41ED1E500006893C4 /* TransactionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		733D1C2C1ED26D9A00ED4440 /* ExplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationViewController.h; sourceTree = "<group>"; };
+		733D1C2D1ED26D9A00ED4440 /* ExplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationViewController.m; sourceTree = "<group>"; };
+		733D1C2F1ED2998C00ED4440 /* CABasiceAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasiceAnimationViewController.h; sourceTree = "<group>"; };
+		733D1C301ED2998C00ED4440 /* CABasiceAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasiceAnimationViewController.m; sourceTree = "<group>"; };
+		7369A0AC1ED3C4B8003AE76A /* MediaTimingSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTimingSystemViewController.h; sourceTree = "<group>"; };
+		7369A0AD1ED3C4B8003AE76A /* MediaTimingSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTimingSystemViewController.m; sourceTree = "<group>"; };
+		7369A0AF1ED4133B003AE76A /* PauseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseAnimationViewController.h; sourceTree = "<group>"; };
+		7369A0B01ED4133B003AE76A /* PauseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseAnimationViewController.m; sourceTree = "<group>"; };
+		7369A0B21ED445AF003AE76A /* CALayer+AnimationControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AnimationControl.h"; sourceTree = "<group>"; };
+		7369A0B31ED445AF003AE76A /* CALayer+AnimationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AnimationControl.m"; sourceTree = "<group>"; };
+		738FB69B1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewAnimationDemo_Nee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738FB69F1ECE9CC500F9B426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		738FB6A11ECE9CC500F9B426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		738FB6A21ECE9CC500F9B426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		738FB6AA1ECE9CC500F9B426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738FB6AD1ECE9CC500F9B426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		738FB6AF1ECE9CC500F9B426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738FB6B51ECE9CE400F9B426 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		738FB6B61ECE9CE400F9B426 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7390410B1ED567CB00FC2BFF /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
+		7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		73930BB11ECEA5F400381B76 /* utilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilTool.h; sourceTree = "<group>"; };
+		73930BB21ECEA5F400381B76 /* utilTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utilTool.m; sourceTree = "<group>"; };
+		73930BB41ECEA65F00381B76 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		73930BB51ECEA65F00381B76 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		73930BB71ECEA66F00381B76 /* AnimationBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationBlockViewController.h; sourceTree = "<group>"; };
+		73930BB81ECEA66F00381B76 /* AnimationBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationBlockViewController.m; sourceTree = "<group>"; };
+		73930BBA1ECEA68700381B76 /* AnimationKeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationKeyframeViewController.h; sourceTree = "<group>"; };
+		73930BBB1ECEA68700381B76 /* AnimationKeyframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationKeyframeViewController.m; sourceTree = "<group>"; };
+		739566A31ED1C065006893C4 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		739566A41ED1C065006893C4 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		739566A91ED1CC27006893C4 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		739566AA1ED1CC27006893C4 /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		739566AB1ED1CC27006893C4 /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		739566AC1ED1CC27006893C4 /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		739566AD1ED1CC27006893C4 /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		739566AE1ED1CC27006893C4 /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		739566AF1ED1CC27006893C4 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		739566B01ED1CC27006893C4 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		739566B11ED1CC27006893C4 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		739566B21ED1CC27006893C4 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		739566B31ED1CC27006893C4 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		739566B41ED1CC27006893C4 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		739566B51ED1CC27006893C4 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		739566B61ED1CC27006893C4 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		739566B71ED1CC27006893C4 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		739566B81ED1CC27006893C4 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		739566B91ED1CC27006893C4 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		739566BA1ED1CC27006893C4 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		739566BB1ED1CC27006893C4 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		739566BC1ED1CC27006893C4 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		739566BD1ED1CC27006893C4 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		739566BE1ED1CC27006893C4 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		739566BF1ED1CC27006893C4 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		739566C01ED1CC27006893C4 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		739566C11ED1CC27006893C4 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		739566C21ED1CC27006893C4 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		739566C31ED1CC27006893C4 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		739566D01ED1D79C006893C4 /* LayerTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTreeViewController.h; sourceTree = "<group>"; };
+		739566D11ED1D79C006893C4 /* LayerTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTreeViewController.m; sourceTree = "<group>"; };
+		739566D31ED1E500006893C4 /* TransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionViewController.h; sourceTree = "<group>"; };
+		739566D41ED1E500006893C4 /* TransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738FB6981ECE9CC500F9B426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738FB6921ECE9CC500F9B426 = {
+			isa = PBXGroup;
+			children = (
+				738FB69D1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee */,
+				738FB69C1ECE9CC500F9B426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		738FB69C1ECE9CC500F9B426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738FB69B1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738FB69D1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee */ = {
+			isa = PBXGroup;
+			children = (
+				739566A71ED1C088006893C4 /* CoreAnimation */,
+				739566A61ED1C070006893C4 /* UIVIewAnimation */,
+				738FB6B51ECE9CE400F9B426 /* FirstViewController.h */,
+				738FB6B61ECE9CE400F9B426 /* FirstViewController.m */,
+				738FB6A11ECE9CC500F9B426 /* AppDelegate.h */,
+				738FB6A21ECE9CC500F9B426 /* AppDelegate.m */,
+				73930BB11ECEA5F400381B76 /* utilTool.h */,
+				73930BB21ECEA5F400381B76 /* utilTool.m */,
+				7369A0B21ED445AF003AE76A /* CALayer+AnimationControl.h */,
+				7369A0B31ED445AF003AE76A /* CALayer+AnimationControl.m */,
+				738FB6AA1ECE9CC500F9B426 /* Assets.xcassets */,
+				738FB6AC1ECE9CC500F9B426 /* LaunchScreen.storyboard */,
+				738FB6AF1ECE9CC500F9B426 /* Info.plist */,
+				739566A81ED1CC27006893C4 /* Chameleon */,
+				738FB69E1ECE9CC500F9B426 /* Supporting Files */,
+			);
+			path = UIViewAnimationDemo_Nee;
+			sourceTree = "<group>";
+		};
+		738FB69E1ECE9CC500F9B426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				738FB69F1ECE9CC500F9B426 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		739566A61ED1C070006893C4 /* UIVIewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				73930BB41ECEA65F00381B76 /* AnimationViewController.h */,
+				73930BB51ECEA65F00381B76 /* AnimationViewController.m */,
+				73930BB71ECEA66F00381B76 /* AnimationBlockViewController.h */,
+				73930BB81ECEA66F00381B76 /* AnimationBlockViewController.m */,
+				73930BBA1ECEA68700381B76 /* AnimationKeyframeViewController.h */,
+				73930BBB1ECEA68700381B76 /* AnimationKeyframeViewController.m */,
+			);
+			name = UIVIewAnimation;
+			sourceTree = "<group>";
+		};
+		739566A71ED1C088006893C4 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				739566A31ED1C065006893C4 /* ImplicitAnimationViewController.h */,
+				739566A41ED1C065006893C4 /* ImplicitAnimationViewController.m */,
+				739566D01ED1D79C006893C4 /* LayerTreeViewController.h */,
+				739566D11ED1D79C006893C4 /* LayerTreeViewController.m */,
+				739566D31ED1E500006893C4 /* TransactionViewController.h */,
+				739566D41ED1E500006893C4 /* TransactionViewController.m */,
+				733D1C2C1ED26D9A00ED4440 /* ExplicitAnimationViewController.h */,
+				733D1C2D1ED26D9A00ED4440 /* ExplicitAnimationViewController.m */,
+				733D1C2F1ED2998C00ED4440 /* CABasiceAnimationViewController.h */,
+				733D1C301ED2998C00ED4440 /* CABasiceAnimationViewController.m */,
+				7369A0AC1ED3C4B8003AE76A /* MediaTimingSystemViewController.h */,
+				7369A0AD1ED3C4B8003AE76A /* MediaTimingSystemViewController.m */,
+				7369A0AF1ED4133B003AE76A /* PauseAnimationViewController.h */,
+				7369A0B01ED4133B003AE76A /* PauseAnimationViewController.m */,
+				7390410B1ED567CB00FC2BFF /* SpringAnimationViewController.h */,
+				7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */,
+			);
+			name = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		739566A81ED1CC27006893C4 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				739566A91ED1CC27006893C4 /* Chameleon.h */,
+				739566AA1ED1CC27006893C4 /* Chameleon_.h */,
+				739566AB1ED1CC27006893C4 /* Chameleon_.m */,
+				739566AC1ED1CC27006893C4 /* ChameleonConstants.h */,
+				739566AD1ED1CC27006893C4 /* ChameleonConstants.m */,
+				739566AE1ED1CC27006893C4 /* ChameleonEnums.h */,
+				739566AF1ED1CC27006893C4 /* ChameleonMacros.h */,
+				739566B01ED1CC27006893C4 /* NSArray+Chameleon.h */,
+				739566B11ED1CC27006893C4 /* NSArray+Chameleon.m */,
+				739566B21ED1CC27006893C4 /* UIAppearance+Swift.h */,
+				739566B31ED1CC27006893C4 /* UIAppearance+Swift.m */,
+				739566B41ED1CC27006893C4 /* UIButton+Chameleon.h */,
+				739566B51ED1CC27006893C4 /* UIButton+Chameleon.m */,
+				739566B61ED1CC27006893C4 /* UIColor+Chameleon.h */,
+				739566B71ED1CC27006893C4 /* UIColor+Chameleon.m */,
+				739566B81ED1CC27006893C4 /* UIColor+ChameleonPrivate.h */,
+				739566B91ED1CC27006893C4 /* UIColor+ChameleonPrivate.m */,
+				739566BA1ED1CC27006893C4 /* UIImage+ChameleonPrivate.h */,
+				739566BB1ED1CC27006893C4 /* UIImage+ChameleonPrivate.m */,
+				739566BC1ED1CC27006893C4 /* UILabel+Chameleon.h */,
+				739566BD1ED1CC27006893C4 /* UILabel+Chameleon.m */,
+				739566BE1ED1CC27006893C4 /* UINavigationController+Chameleon.h */,
+				739566BF1ED1CC27006893C4 /* UINavigationController+Chameleon.m */,
+				739566C01ED1CC27006893C4 /* UIView+ChameleonPrivate.h */,
+				739566C11ED1CC27006893C4 /* UIView+ChameleonPrivate.m */,
+				739566C21ED1CC27006893C4 /* UIViewController+Chameleon.h */,
+				739566C31ED1CC27006893C4 /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738FB69A1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738FB6B21ECE9CC500F9B426 /* Build configuration list for PBXNativeTarget "UIViewAnimationDemo_Nee" */;
+			buildPhases = (
+				738FB6971ECE9CC500F9B426 /* Sources */,
+				738FB6981ECE9CC500F9B426 /* Frameworks */,
+				738FB6991ECE9CC500F9B426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIViewAnimationDemo_Nee;
+			productName = UIViewAnimationDemo_Nee;
+			productReference = 738FB69B1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738FB6931ECE9CC500F9B426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Baoqin Huang";
+				TargetAttributes = {
+					738FB69A1ECE9CC500F9B426 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3823AC622Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 738FB6961ECE9CC500F9B426 /* Build configuration list for PBXProject "UIViewAnimationDemo_Nee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 738FB6921ECE9CC500F9B426;
+			productRefGroup = 738FB69C1ECE9CC500F9B426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738FB69A1ECE9CC500F9B426 /* UIViewAnimationDemo_Nee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738FB6991ECE9CC500F9B426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738FB6AE1ECE9CC500F9B426 /* LaunchScreen.storyboard in Resources */,
+				738FB6AB1ECE9CC500F9B426 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738FB6971ECE9CC500F9B426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7390410D1ED567CB00FC2BFF /* SpringAnimationViewController.m in Sources */,
+				739566CA1ED1CC27006893C4 /* UIColor+ChameleonPrivate.m in Sources */,
+				739566C41ED1CC27006893C4 /* Chameleon_.m in Sources */,
+				7369A0AE1ED3C4B8003AE76A /* MediaTimingSystemViewController.m in Sources */,
+				73930BBC1ECEA68700381B76 /* AnimationKeyframeViewController.m in Sources */,
+				739566C51ED1CC27006893C4 /* ChameleonConstants.m in Sources */,
+				738FB6A31ECE9CC500F9B426 /* AppDelegate.m in Sources */,
+				739566A51ED1C065006893C4 /* ImplicitAnimationViewController.m in Sources */,
+				739566CD1ED1CC27006893C4 /* UINavigationController+Chameleon.m in Sources */,
+				739566C71ED1CC27006893C4 /* UIAppearance+Swift.m in Sources */,
+				73930BB31ECEA5F400381B76 /* utilTool.m in Sources */,
+				7369A0B11ED4133B003AE76A /* PauseAnimationViewController.m in Sources */,
+				739566D21ED1D79C006893C4 /* LayerTreeViewController.m in Sources */,
+				739566CC1ED1CC27006893C4 /* UILabel+Chameleon.m in Sources */,
+				739566CB1ED1CC27006893C4 /* UIImage+ChameleonPrivate.m in Sources */,
+				73930BB61ECEA65F00381B76 /* AnimationViewController.m in Sources */,
+				739566C91ED1CC27006893C4 /* UIColor+Chameleon.m in Sources */,
+				739566C61ED1CC27006893C4 /* NSArray+Chameleon.m in Sources */,
+				733D1C2E1ED26D9A00ED4440 /* ExplicitAnimationViewController.m in Sources */,
+				739566D51ED1E500006893C4 /* TransactionViewController.m in Sources */,
+				73930BB91ECEA66F00381B76 /* AnimationBlockViewController.m in Sources */,
+				733D1C311ED2998C00ED4440 /* CABasiceAnimationViewController.m in Sources */,
+				739566CF1ED1CC27006893C4 /* UIViewController+Chameleon.m in Sources */,
+				739566C81ED1CC27006893C4 /* UIButton+Chameleon.m in Sources */,
+				738FB6B71ECE9CE400F9B426 /* FirstViewController.m in Sources */,
+				7369A0B41ED445AF003AE76A /* CALayer+AnimationControl.m in Sources */,
+				739566CE1ED1CC27006893C4 /* UIView+ChameleonPrivate.m in Sources */,
+				738FB6A01ECE9CC500F9B426 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		738FB6AC1ECE9CC500F9B426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738FB6AD1ECE9CC500F9B426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738FB6B01ECE9CC500F9B426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		738FB6B11ECE9CC500F9B426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738FB6B31ECE9CC500F9B426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823AC622Y;
+				INFOPLIST_FILE = UIViewAnimationDemo_Nee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangbaoqin.LocationDemo.UIViewAnimationDemo-Nee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		738FB6B41ECE9CC500F9B426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823AC622Y;
+				INFOPLIST_FILE = UIViewAnimationDemo_Nee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangbaoqin.LocationDemo.UIViewAnimationDemo-Nee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738FB6961ECE9CC500F9B426 /* Build configuration list for PBXProject "UIViewAnimationDemo_Nee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738FB6B01ECE9CC500F9B426 /* Debug */,
+				738FB6B11ECE9CC500F9B426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738FB6B21ECE9CC500F9B426 /* Build configuration list for PBXNativeTarget "UIViewAnimationDemo_Nee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738FB6B31ECE9CC500F9B426 /* Debug */,
+				738FB6B41ECE9CC500F9B426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738FB6931ECE9CC500F9B426 /* Project object */;
+}
