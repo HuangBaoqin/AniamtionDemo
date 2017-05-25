@@ -18,6 +18,8 @@
 		738FB6AE1ECE9CC500F9B426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738FB6AC1ECE9CC500F9B426 /* LaunchScreen.storyboard */; };
 		738FB6B71ECE9CE400F9B426 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738FB6B61ECE9CE400F9B426 /* FirstViewController.m */; };
 		7390410D1ED567CB00FC2BFF /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */; };
+		739041111ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390410F1ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.m */; };
+		739041121ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739041101ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.xib */; };
 		73930BB31ECEA5F400381B76 /* utilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB21ECEA5F400381B76 /* utilTool.m */; };
 		73930BB61ECEA65F00381B76 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB51ECEA65F00381B76 /* AnimationViewController.m */; };
 		73930BB91ECEA66F00381B76 /* AnimationBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73930BB81ECEA66F00381B76 /* AnimationBlockViewController.m */; };
@@ -61,6 +63,9 @@
 		738FB6B61ECE9CE400F9B426 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7390410B1ED567CB00FC2BFF /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
 		7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		7390410E1ED6D57E00FC2BFF /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		7390410F1ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		739041101ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAKeyframeAnimationViewController.xib; sourceTree = "<group>"; };
 		73930BB11ECEA5F400381B76 /* utilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilTool.h; sourceTree = "<group>"; };
 		73930BB21ECEA5F400381B76 /* utilTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utilTool.m; sourceTree = "<group>"; };
 		73930BB41ECEA65F00381B76 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
@@ -193,6 +198,9 @@
 				7369A0B01ED4133B003AE76A /* PauseAnimationViewController.m */,
 				7390410B1ED567CB00FC2BFF /* SpringAnimationViewController.h */,
 				7390410C1ED567CB00FC2BFF /* SpringAnimationViewController.m */,
+				7390410E1ED6D57E00FC2BFF /* CAKeyframeAnimationViewController.h */,
+				7390410F1ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.m */,
+				739041101ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.xib */,
 			);
 			name = CoreAnimation;
 			sourceTree = "<group>";
@@ -290,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739041121ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.xib in Resources */,
 				738FB6AE1ECE9CC500F9B426 /* LaunchScreen.storyboard in Resources */,
 				738FB6AB1ECE9CC500F9B426 /* Assets.xcassets in Resources */,
 			);
@@ -329,6 +338,7 @@
 				738FB6B71ECE9CE400F9B426 /* FirstViewController.m in Sources */,
 				7369A0B41ED445AF003AE76A /* CALayer+AnimationControl.m in Sources */,
 				739566CE1ED1CC27006893C4 /* UIView+ChameleonPrivate.m in Sources */,
+				739041111ED6D57F00FC2BFF /* CAKeyframeAnimationViewController.m in Sources */,
 				738FB6A01ECE9CC500F9B426 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

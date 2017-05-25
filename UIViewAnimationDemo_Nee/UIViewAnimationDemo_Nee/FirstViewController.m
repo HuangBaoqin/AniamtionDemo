@@ -18,6 +18,7 @@
 #import "MediaTimingSystemViewController.h"
 #import "PauseAnimationViewController.h"
 #import "SpringAnimationViewController.h"
+#import "CAKeyframeAnimationViewController.h"
 
 #import "Chameleon.h"
 #import "utilTool.h"
@@ -46,7 +47,7 @@
     _mainTableView.dataSource = self;
     _mainTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-    _nameArray = @[@[@"UIView_Animation", @"UIView_AnimationWithBlocks", @"UIView_KeyframeAnimations"], @[@"隐式动画", @"动画过程的Layer树", @"Transaction", @"CABasiceAnimation", @"时间系统", @"暂停动画", @"弹簧动画", @"关键帧动画", @"..."]];
+    _nameArray = @[@[@"UIView_Animation", @"UIView_AnimationWithBlocks", @"UIView_KeyframeAnimations"], @[@"隐式动画", @"动画过程的Layer树", @"Transaction", @"CABasiceAnimation", @"时间系统", @"暂停动画", @"弹簧动画", @"CA关键帧动画", @"..."]];
     _sections = @[@"UIViewAnimation", @"CoreAnimation"];
     
     [self.view addSubview:_mainTableView];
@@ -143,6 +144,9 @@
                 break;
             case 6:
                 [self.navigationController pushViewController:[SpringAnimationViewController new] animated:YES];
+                break;
+            case 7:
+                [self.navigationController pushViewController:[CAKeyframeAnimationViewController new] animated:YES];
                 break;
             default:
                 break;
